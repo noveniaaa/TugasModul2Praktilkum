@@ -1,77 +1,191 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Novenia's Website</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>My Website</title>
 </head>
+
 <body>
-    <header>
-        <h1>Welcome to My Website!</h1>
-        <nav>
-            <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#blog">Blog</a></li>
-                <li><a href="#gallery">Gallery</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
+  <section id="header">
+    <div class="header container">
+      <div class="nav-bar">
+        <div class="brand">
+          <a href="#hero">
+            <h1><span>M</span>OVIE <span>E</span>NTHUSIASTS</h1>
+          </a>
+        </div>
+        <div class="nav-list">
+          <div class="hamburger">
+            <div class="bar"></div>
+          </div>
+          <ul>
+            <li><a href="#hero" data-after="Home">Home</a></li>
+            <li><a href="#gallery" data-after="Gallery">Gallery</a></li>
+            <li><a href="#blog" data-after="blog">Blog</a></li>
+            <li><a href="#about" data-after="About">About</a></li>
+            <li><a href="#contact" data-after="Contact">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="hero">
+    <div class="hero container">
+      <div>
+        <h1>Hello, <span></span></h1>
+        <h1>I'm Novenia Wowor<span></span></h1>
 
-    <main>
-        <section id="home">
-            <h2>Homepage</h2>
-            <p>Hello everyone! Let's talk about movies and series</p>
-            <p>Welcome and enjoy the content!</p>
-        </section>
+      </div>
+    </div>
+  </section>
 
-        <section id="blog">
-            <h2>Blog</h2>
-            <article>
-                <h3>Fight Club</h3>
-                <p><img src="fight club poster.jpeg" alt="fight-club-movie" width="600px" ></p>
-                <p>"Fight Club is a 1999 American film directed by David Fincher, and starring Brad Pitt, Edward Norton and Helena Bonham Carter. It is based on the 1996 novel by Chuck Palahniuk. Norton plays the unnamed narrator, who is discontented with his white-collar job. He forms a "fight club" with soap salesman Tyler Durden (Pitt), and becomes embroiled in a relationship with an impoverished but beguilingly attractive woman, Marla Singer (Bonham Carter).
-                </p>
-            </article>
-            <article>
-                <h3>The Prestige</h3>
-                <p><img src="the prestige poster.jpeg" alt="the-prestige-movie" width="600px"></p>
-                <p>"“The Prestige” is a captivating psychological thriller directed by Christopher Nolan. Released in 2006, it stars Christian Bale and Hugh Jackman as rival stage magicians in Victorian London. The film revolves around their intense feud over a mysterious teleportation trick. As they vie for supremacy, secrets, deception, and obsession intertwine, leading to a thrilling and complex narrative.</p>
-            </article>
-            <article>
-                <h3>Prisoners</h3>
-                <p><img src="prisoners poster.jpeg" alt="prisoners-movie" width="600px"></p>
-                <p>"Prisoners is a 2013 American thriller film directed by Denis Villeneuve and written by Aaron Guzikowski. The film has an ensemble cast including Jake Gyllenhaal, Hugh Jackman, Viola Davis, Paul Dano, Terrence Howard, Melissa Leo, Maria Bello, and David Dastmalchian. The film follows the abduction of two young girls in Pennsylvania and the subsequent search for the perpetrator by the police. After police arrest a young suspect and release him, the father of one of the daughters takes matters into his own hands.
-                    
-                    
-                    
-                    
-                    
-                    
-                    </p>
-            </article>
-        </section>
+  <section id="gallery">
+    <div class="gallery container">
+      <div class="gallery-top">
+        <h1 class="section-title">Ga<span>ll</span>ery</h1>
+      </div>
+      <section class="gallery">
+        <h2 class="gallery__text">Don't be shy, Take a look mate!</h2>
+        <div class="gallery__all-grid">
+        <div class="grid-container">
+          <div>
+            <img class= "grid-item grid1" src="img/fight club scene.jpeg" alt="">
+          </div>
+        </div>
+        <div class="grid-container">
+          <div>
+            <img class="grid-item grid2" src="img/prisoners scene.jpeg" alt="">
+          </div>
+        </div>
+        <div class="grid-container">
+          <div>
+            <img class="grid-item grid3" src="img/the prestige scene.jpeg" alt="">
+          </div>
+        </div>
+        </div>
+      </section>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="blog">
+    <div class="blog container">
+      <div class="blog-header">
+        <h1 class="section-title">My <span>Blog</span></h1>
+      </div>
+      <div class="all-blog">
+        <div class="blog-item">
+          <div class="blog-info">
+            <h1>Fight Club</h1>
+            <h2>Synopsis</h2>
+            <p>Fight Club is a 1999 American film directed by David Fincher, and starring Brad Pitt, Edward Norton and Helena Bonham Carter. 
+              It is based on the 1996 novel by Chuck Palahniuk. Norton plays the unnamed narrator, who is discontented with his white-collar job. 
+              He forms a "fight club" with soap salesman Tyler Durden (Pitt), and becomes embroiled in a relationship with an impoverished but beguilingly attractive woman, Marla Singer (Bonham Carter).</p>
+          </div>
+          <div class="blog-img">
+            <img src="./img/fight club poster.jpeg" alt="img">
+          </div>
+        </div>
+        <div class="blog-item">
+          <div class="blog-info">
+            <h1>The Prestige</h1>
+            <h2>Synopsis</h2>
+            <p>"“The Prestige” is a captivating psychological thriller directed by Christopher Nolan. 
+              Released in 2006, it stars Christian Bale and Hugh Jackman as rival stage magicians in Victorian London. 
+              The film revolves around their intense feud over a mysterious teleportation trick.
+             As they vie for supremacy, secrets, deception, and obsession intertwine, leading to a thrilling and complex narrative.</p>
+          </div>
+          <div class="blog-img">
+            <img src="./img/the prestige poster.jpeg" alt="img">
+          </div>
+        </div>
+        <div class="blog-item">
+          <div class="blog-info">
+            <h1>Prisoners</h1>
+            <h2>Synopsis</h2>
+            <p>Prisoners is a 2013 American thriller film directed by Denis Villeneuve and written by Aaron Guzikowski. 
+              The film has an ensemble cast including Jake Gyllenhaal, Hugh Jackman, Viola Davis, Paul Dano, Terrence Howard, Melissa Leo, Maria Bello, and David Dastmalchian. 
+              The film follows the abduction of two young girls in Pennsylvania and the subsequent search for the perpetrator by the police. 
+              After police arrest a young suspect and release him, the father of one of the daughters takes matters into his own hands.</p>
+          </div>
+          <div class="blog-img">
+            <img src="./img/prisoners poster.jpeg" alt="img">
+          </div>
+        </div>
+        
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 
-        <section id="gallery">
-            <h2>Gallery</h2>
-            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); grid-gap: 20px; justify-items: center; padding: 20px;">
-                <img src="fight club scene.jpeg" alt="Image 1">
-                <img src="the prestige scene.jpeg" alt="Image 2">
-                <img src="prisoners scene.jpeg" alt="Image 3">
-            </div>
-        </section>
+  <!-- About Section -->
+  <section id="about">
+    <div class="about container">
+      <div class="col-left">
+        <div class="about-img">
+          <img src="./img/IMG_5113.jpeg" alt="img">
+        </div>
+      </div>
+      <div class="col-right">
+        <h1 class="section-title">About <span>me</span></h1>
+        <h2>movieEnthusiast.</h2>
+        <p>“i stand upon my desk to remind my self that we must  constantly look at things in a different way” - dead poets society (1989)</p>
+         <p> And here i am constantly look at things in a different way by movies. I believe that films are windows into different worlds and perspectives. 
+          Each film gives me the opportunity to see the world from a different perspective, learning about experiences and emotions that I may have never felt before.
+          As a movie enthusiast, I am always looking for stories that are thought-provoking, surprising, or even change the way I look at something. For me, film is an art form that forces us to think outside the boundaries and challenge our assumptions.</p>
+      </div>
+    </div>
+  </section>
+  <!-- End About Section -->
 
-        <section id="contact">
-            <h2>Contact</h2>
-            <p>Email: noveniawowor@gmail.com</p>
-            <p>No Handphone: 081242304665</p>
-        </section>
-    </main>
+  <!-- Contact Section -->
+  <section id="contact">
+    <div class="contact container">
+      <div>
+        <h1 class="section-title">Contact <span>info</span></h1>
+      </div>
+      <div class="contact-items">
+        <div class="contact-item">
+          <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/phone.png" /></div>
+          <div class="contact-info">
+            <h1>Phone</h1>
+            <h2>+62 812-4230-4665</h2>
+          </div>
+        </div>
+        <div class="contact-item">
+          <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/new-post.png" /></div>
+          <div class="contact-info">
+            <h1>Email</h1>
+            <h2>noveniawowor@gmail.com</h2>
+          </div>
+        </div>
+        <div class="contact-item">
+          <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/map-marker.png" /></div>
+          <div class="contact-info">
+            <h1>Address</h1>
+            <h2>Universitas Sam Ratulangi, Kota Manado, Indonesia</h2>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Contact Section -->
 
-    <footer>
-        <p>&copy; 2024 My Website. All rights reserved.</p>
-    </footer>
-    
+  <!-- Footer -->
+  <section id="footer">
+    <div class="footer container">
+      <div class="brand">
+        <h1><span>N</span>ovenia <span>W</span>owor</h1>
+      </div>
+      <p>Copyright © 2024 Novenia. All rights reserved</p>
+    </div>
+  </section>
+  <!-- End Footer -->
+  <script src="./app.js"></script>
 </body>
+
 </html>
